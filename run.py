@@ -29,9 +29,15 @@ b = "Paris"
 c = "Moscow"
 print(a, b, c)
 print()
-given_answer = input("Please give select a number: ")
+answer = input("Please give your answer: ")
 
-#if == 2:
-    #print(f"you answered {letter}, that is correct")
-#else:
-    #print(f"You answered {letter}, that is incorrect")
+answer = 'Paris'
+
+if answer == 'Paris':
+    print("Correct")
+elif answer == 'London':
+    print("Incorrect")
+elif answer == 'Moscow':
+    print("Incorrect")
+else:
+    print("not an option")
