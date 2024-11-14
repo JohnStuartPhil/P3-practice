@@ -31,8 +31,6 @@ print(a, b, c)
 print()
 answer = input("Please give your answer: ")
 
-answer = 'Paris'
-
 if answer == 'Paris':
     print("Correct")
 elif answer == 'London':
