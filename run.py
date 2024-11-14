@@ -1,3 +1,5 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+question = input("What is the capital of France? ")
+print()
+capital = "Paris"
+answer = "The capital of France is " + capital
+print(answer)
