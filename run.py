@@ -24,14 +24,14 @@
 question = "What is the Capital of France?"
 print(question)
 print()
-a = "Is it A: London,"
-b = "B: Paris"
-c = "or C: Moscow"
+a = "London"
+b = "Paris"
+c = "Moscow"
 print(a, b, c)
 print()
-given_answer = input("Please give select a letter: ")
+given_answer = input("Please give select a number: ")
 
-#if letter == b:
+#if == 2:
     #print(f"you answered {letter}, that is correct")
 #else:
     #print(f"You answered {letter}, that is incorrect")
