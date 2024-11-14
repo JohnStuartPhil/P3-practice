@@ -5,8 +5,8 @@
 #print(answer)
 
 question = input("What is the capital of France? ")
-print(f"You answered {question}")
+print(f"You answered: {question}")
 answer = 'Paris'
 print()
-print(f"The correct answer is {answer}")
+print(f"The correct answer is: {answer}")
 
