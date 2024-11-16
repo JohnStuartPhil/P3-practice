@@ -25,7 +25,7 @@
 print()
 
 def the_question():
-    question = "What is the Capital of the {United States}?"
+    question = "What is the Capital of the United States?"
     print(question)
 the_question()
 
@@ -33,9 +33,9 @@ print()
 
 def the_options():
     options = {
-        "A": "{Los Angeles}",
-        "B": "{New York}",
-        "C": "{Washington DC}"
+        "A": "Los Angeles",
+        "B": "New York",
+        "C": "Washington DC"
         }
     print(options)
 the_options()
@@ -52,17 +52,17 @@ def determine_if_c_is_the_corrrect_answer():
     determines the output once the user has input A/a, B/b, C/c or something else
     """
     if answer.upper() == "C":
-        print("Correct answer")
+        print("Well done, that is the correct answer")
         print()
     elif answer.upper() == "A":
-        print("Incorrect answer")
+        print(f"{answer} is not the correct answer")
         print()
     elif answer.upper() == "B":
-        print("Incorrect answer")    
+        print(f"{answer} is not the correct answer")    
         print()
     else:
         print()
-        print("This is not an option, please try again")
+        print(f"{answer} is not an option, please try again")
         print()
         the_question()
         print()
