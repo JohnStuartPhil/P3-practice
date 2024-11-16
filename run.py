@@ -25,27 +25,27 @@
 print()
 
 def the_question():
-    question = "What is the Capital of the United States?"
+    question = "What is the Capital of the {United States}?"
     print(question)
-
 the_question()
 
 print()
 
 def the_options():
     options = {
-        "A": "Los Angeles",
-        "B": "New York",
-        "C": "Washington DC"
+        "A": "{Los Angeles}",
+        "B": "{New York}",
+        "C": "{Washington DC}"
         }
     print(options)
-
 the_options()
 
 print()
 
 answer = input("Please select an option, A, B or C: ")
-print(answer)
+print()
+print(f"You selected {answer}")
+print()
 
 def determine_if_c_is_the_corrrect_answer():
     """
@@ -61,6 +61,7 @@ def determine_if_c_is_the_corrrect_answer():
         print("Incorrect answer")    
         print()
     else:
+        print()
         print("This is not an option, please try again")
         print()
         the_question()
