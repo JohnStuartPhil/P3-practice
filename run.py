@@ -28,9 +28,9 @@ print(question)
 print()
 
 options = {
-    "A": "London",
+    "A": "Nice",
     "B": "Paris",
-    "C": "Moscow"
+    "C": "Lyon"
 }
 
 print(options)
