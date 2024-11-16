@@ -44,7 +44,9 @@ the_options()
 
 print()
 
-answer = input("Please select an option, A, B or C:")
+answer = input("Please select an option, A, B or C:\n")
+print(answer)
+
 
 def determine():
     """
@@ -60,7 +62,6 @@ def determine():
         print("This is not an option, please try again")
         the_question()
         the_options()
-        
 determine()
 
 
