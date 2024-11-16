@@ -26,13 +26,14 @@ print()
 question = "What is the Capital of {country}?"
 print(question)
 print()
-x = "Is it"
-a = "A {capital_1}"
-y = ","
-b = "B {capital_2}"
-z = "or"
-c = "C {capital_3}"
-print(x, a, y, b, z, c)
+
+options = {
+    "A": "London",
+    "B": "Paris",
+    "C": "Moscow"
+}
+
+print(options)
 print()
 answer = input("Please give your answer: ")
 
