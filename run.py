@@ -28,9 +28,9 @@ print(question)
 print()
 
 options = {
-    "A": "Nice",
-    "B": "Paris",
-    "C": "Lyon"
+    "A": "Los Angeles",
+    "B": "New York",
+    "C": "Washington DC"
 }
 
 print(options)
@@ -38,11 +38,11 @@ print()
 answer = input("Please select an option, A, B or C: ")
 
 def determine():
-    if answer.upper() == "B":
+    if answer.upper() == "C":
         print("Correct")
     elif answer.upper() == "A":
         print("Incorrect")
-    elif answer.upper() == "C":
+    elif answer.upper() == "B":
         print("Incorrect")    
     else:
         print("This is not an option, please try again")
