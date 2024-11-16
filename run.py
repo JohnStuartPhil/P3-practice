@@ -50,7 +50,7 @@ the_options()
 
 print()
 
-answer = input("Please select an option, A, B or C: ")
+answer = input("Please select an option of A, B or C: ")
 print()
 print(f"You selected {answer}")
 print()
@@ -69,7 +69,7 @@ def determine_if_c_is_the_corrrect_answer():
         print(f"{answer} is not the correct answer")    
         print()
     else:
-        print(f"{answer} is not an option, please try again and choose A, B or C")
+        print(f"{answer} is not an option, please try again and choose an option of A, B or C")
         print()
         the_question()
         print()
