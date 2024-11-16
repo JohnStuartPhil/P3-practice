@@ -23,7 +23,7 @@
 
 
 print()
-question = "What is the Capital of {country}?"
+question = "What is the Capital of the United States?"
 print(question)
 print()
 
