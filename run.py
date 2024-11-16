@@ -39,6 +39,8 @@ def the_options():
     Lists the options
     """
     options = {
+        "The options are:"
+        " "
         "A": "Los Angeles",
         "B": "New York",
         "C": "Washington DC"
@@ -67,8 +69,7 @@ def determine_if_c_is_the_corrrect_answer():
         print(f"{answer} is not the correct answer")    
         print()
     else:
-        print()
-        print(f"{answer} is not an option, please try again")
+        print(f"{answer} is not an option, please try again and choose A, B or C")
         print()
         the_question()
         print()
