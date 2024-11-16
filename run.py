@@ -53,10 +53,13 @@ def determine_if_c_is_the_corrrect_answer():
     """
     if answer.upper() == "C":
         print("Correct answer")
+        print()
     elif answer.upper() == "A":
         print("Incorrect answer")
+        print()
     elif answer.upper() == "B":
         print("Incorrect answer")    
+        print()
     else:
         print("This is not an option, please try again")
         print()
