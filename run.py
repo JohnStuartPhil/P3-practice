@@ -21,24 +21,27 @@
 #greetings = my_string.replace("WORLD", "Dave")
 #print(greetings)
 
-question = "What is the Capital of France?"
+question = "What is the Capital of {country}?"
 print(question)
 print()
-a = "London"
-b = "Paris"
-c = "Moscow"
-print(a, b, c)
+x = "Is it"
+a = "A"
+y = ","
+b = "B"
+z = "or"
+c = "C"
+print(x, a, y, b, z, c)
 print()
 answer = input("Please give your answer: ")
 
 def determine():
-    if answer == 'Paris':
+    if answer == "B":
         print("Correct")
-    elif answer == 'London':
+    elif answer == "A":
         print("Incorrect")
-    elif answer == 'Moscow':
-        print("Incorrect")
+    elif answer == "C":
+        print("Incorrect")    
     else:
-        print("not an option")
+        print("not an option, please try again")
 
 determine()
