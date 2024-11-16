@@ -23,21 +23,27 @@
 
 
 print()
-question = "What is the Capital of the United States?"
-print(question)
-print()
 
-options = {
-    "A": "Los Angeles",
-    "B": "New York",
-    "C": "Washington DC"
-}
+def the_question():
+    question = "What is the Capital of the United States?"
+    print(question)
+    print()
 
-print(options)
+def the_options():
+    options = {
+        "A": "Los Angeles",
+        "B": "New York",
+        "C": "Washington DC"
+        }
+    print(options)
+
 print()
-answer = input("Please select an option, A, B or C: ")
+answer = input("Please select an option, A, B or C:")
 
 def determine():
+    """
+    determines the output once the user has input A/a, B/b, C/c or something else
+    """
     if answer.upper() == "C":
         print("Correct")
     elif answer.upper() == "A":
@@ -46,8 +52,16 @@ def determine():
         print("Incorrect")    
     else:
         print("This is not an option, please try again")
-
+        the_question()
+        the_options()
+        
 determine()
+
+
+
+
+
+
 
 
     
