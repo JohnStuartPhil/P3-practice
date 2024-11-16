@@ -35,17 +35,17 @@ options = {
 
 print(options)
 print()
-answer = input("Please give your answer: ")
+answer = input("Please select an option, A, B or C: ")
 
 def determine():
-    if answer == "B":
+    if answer.upper() == "B":
         print("Correct")
-    elif answer == "A":
+    elif answer.upper() == "A":
         print("Incorrect")
-    elif answer == "C":
+    elif answer.upper() == "C":
         print("Incorrect")    
     else:
-        print("not an option, please try again")
+        print("This is not an option, please try again")
 
 determine()
 
