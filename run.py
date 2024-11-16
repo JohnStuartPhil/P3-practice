@@ -31,11 +31,14 @@ print(a, b, c)
 print()
 answer = input("Please give your answer: ")
 
-if answer == 'Paris':
-    print("Correct")
-elif answer == 'London':
-    print("Incorrect")
-elif answer == 'Moscow':
-    print("Incorrect")
-else:
-    print("not an option")
+def determine():
+    if answer == 'Paris':
+        print("Correct")
+    elif answer == 'London':
+        print("Incorrect")
+    elif answer == 'Moscow':
+        print("Incorrect")
+    else:
+        print("not an option")
+
+determine()
