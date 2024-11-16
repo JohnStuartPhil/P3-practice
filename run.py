@@ -47,45 +47,6 @@ print()
 answer = input("Please select an option, A, B or C: ")
 print(answer)
 
-
-# def determine_if_a_is_the_corrrect_answer():
-#     """
-#     determines the output once the user has input A/a, B/b, C/c or something else
-#     """
-#     if answer.upper() == "A":
-#         print("Correct answer")
-#     elif answer.upper() == "B":
-#         print("Incorrect answer")
-#     elif answer.upper() == "C":
-#         print("Incorrect answer")    
-#     else:
-#         print("This is not an option, please try again")
-#         print()
-#         the_question()
-#         print()
-#         the_options()
-#         print()
-# determine_if_a_is_the_corrrect_answer()
-
-# def determine_if_b_is_the_corrrect_answer():
-#     """
-#     determines the output once the user has input A/a, B/b, C/c or something else
-#     """
-#     if answer.upper() == "B":
-#         print("Correct answer")
-#     elif answer.upper() == "A":
-#         print("Incorrect answer")
-#     elif answer.upper() == "C":
-#         print("Incorrect answer")    
-#     else:
-#         print("This is not an option, please try again")
-#         print()
-#         the_question()
-#         print()
-#         the_options()
-#         print()
-# determine_if_b_is_the_corrrect_answer()
-
 def determine_if_c_is_the_corrrect_answer():
     """
     determines the output once the user has input A/a, B/b, C/c or something else
