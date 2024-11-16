@@ -28,7 +28,9 @@ def the_question():
     question = "What is the Capital of the United States?"
     print(question)
     print()
+
 the_question()
+
 def the_options():
     options = {
         "A": "Los Angeles",
