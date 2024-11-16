@@ -27,9 +27,10 @@ print()
 def the_question():
     question = "What is the Capital of the United States?"
     print(question)
-    print()
 
 the_question()
+
+print()
 
 def the_options():
     options = {
@@ -39,7 +40,10 @@ def the_options():
         }
     print(options)
 
+the_options()
+
 print()
+
 answer = input("Please select an option, A, B or C:")
 
 def determine():
@@ -47,11 +51,11 @@ def determine():
     determines the output once the user has input A/a, B/b, C/c or something else
     """
     if answer.upper() == "C":
-        print("Correct")
+        print("Correct answer")
     elif answer.upper() == "A":
-        print("Incorrect")
+        print("Incorrect answer")
     elif answer.upper() == "B":
-        print("Incorrect")    
+        print("Incorrect answer")    
     else:
         print("This is not an option, please try again")
         the_question()
