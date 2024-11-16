@@ -71,6 +71,10 @@ def determine_if_c_is_the_corrrect_answer():
     else:
         print(f"{answer} is not an option, please try again and choose an option of A, B or C")
         print()
+        the_question()
+        print()
+        the_options()
+        print()
 determine_if_c_is_the_corrrect_answer()
 
 
