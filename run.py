@@ -52,7 +52,7 @@ def determine_if_c_is_the_corrrect_answer():
     determines the output once the user has input A/a, B/b, C/c or something else
     """
     if answer.upper() == "C":
-        print("Well done, that is the correct answer")
+        print(f"Well done, {answer} is the correct answer")
         print()
     elif answer.upper() == "A":
         print(f"{answer} is not the correct answer")
