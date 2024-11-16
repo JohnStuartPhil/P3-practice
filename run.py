@@ -50,15 +50,15 @@ the_options()
 
 print()
 
-answer = input("Please select an option of A, B or C: ")
-print()
-print(f"You selected {answer}")
-print()
-
 def determine_if_c_is_the_corrrect_answer():
     """
     determines the output once the user has input A/a, B/b, C/c or something else
     """
+    answer = input("Please select an option of A, B or C: ")
+    print()
+    print(f"You selected {answer}")
+    print()
+
     if answer.upper() == "C":
         print(f"Well done, {answer} is the correct answer")
         print()
@@ -70,10 +70,6 @@ def determine_if_c_is_the_corrrect_answer():
         print()
     else:
         print(f"{answer} is not an option, please try again and choose an option of A, B or C")
-        print()
-        the_question()
-        print()
-        the_options()
         print()
 determine_if_c_is_the_corrrect_answer()
 
