@@ -21,6 +21,20 @@
 #greetings = my_string.replace("WORLD", "Dave")
 #print(greetings)
 
+class Countries:
+    """Lists the countries"""
+    def __init__(self, country, capital, incorrect_1, incorrect_2):
+        self.country = country
+        self.capital = capital
+        self.incorrect_1 = incorrect_1
+        self.incorrect_2 = incorrect_2 
+    
+    def question(self):
+        """the question"""
+        return f"What is the capital of {self.country}?\nIs it {self.incorrect_1}, {self.incorrect_2} or {self.capital}"
+
+question_1 = Countries("United States", "New York", "Los Angeles", "Washington DC")
+print(question_1.question())
 
 print()
 
