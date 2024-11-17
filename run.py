@@ -34,7 +34,7 @@ class Countries:
     
     def question(self):
         """the question"""
-        return f"What is the capital of {self.country}?\nIs it {self.a}: {self.incorrect_1}, {self.b}: {self.incorrect_2} or {self.c}: {self.capital}"
+        return f"What is the capital of {self.country}?\nIs it; {self.a}: {self.incorrect_1}, {self.b}: {self.incorrect_2} or {self.c}: {self.capital}"
 
 question_1 = Countries("United States", "New York", "Los Angeles", "Washington DC", "A", "B", "C")
 print()
@@ -42,9 +42,10 @@ print(question_1.question())
 question_2 = Countries("China", "Beijing", "Hong Kong", "Shanghai", "A", "B", "C")
 print()
 print(question_2.question())
-question_3 = Countries("Germany", "Berlin", "Hamburg", "Munich", "A", "B", "C")
+question_3 = Countries("United Kingdom", "Birmingham", "London", "Manchester", "A", "B", "C")
 print()
 print(question_3.question())
+print()
 
 print()
 
